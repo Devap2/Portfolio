@@ -1,0 +1,38 @@
+*{
+    background-color: #07080e;
+    font-family: 'Poppins', sans-serif;
+    color: #616264;
+    cursor: crosshair;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #07080e;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #161a2ebb;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #101322;   /* creates padding around scroll thumb */
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+ }
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}

@@ -1,0 +1,1033 @@
+.first-section-container{
+    height: 93vh;
+    /*border: solid 1px green;*/
+    max-width: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+/*---------- Main Title ----------*/
+
+.main-title-child{
+    float: left;
+    margin-top: 150px;
+    /*border: solid 1px red;*/
+}
+
+#main-title{
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+#main-title-span{
+    color: #6684ec;
+}
+
+/*---------- Main Sub-Title ----------*/
+
+#main-subtitle{
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+/*---------- Main Paragraph ----------*/
+
+#main-paragraph{
+    font-size: 18px;
+    max-width: 600px;
+    color: rgb(160, 160, 160);
+}
+
+/*---------- Main Button ----------*/
+
+#main-button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #6684ec;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#main-button:hover{
+    background-color: #5c78df;
+}
+
+#main-button:active{
+    background-color: darkblue;
+}
+
+/*---------- Main Image ----------*/
+
+.main-image-child{
+    float: right;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+
+#main-image{
+    width: 300px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+
+/*---------- Main Arrow Down ----------*/
+
+.main-arrow-down{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 0;
+    padding-top: 250px;
+}
+
+#arrow-down{
+    width: 50px;
+    height: 33.3333333333px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 60%;
+}
+
+#arrow-down:hover{
+    cursor: pointer;
+    transition-duration: 1s;
+    opacity: 80%;
+}
+
+/*---------- MEDIA QUERIES ----------*/
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    
+}
+
+@media only screen and (max-width: 1400px){
+    /*Tablets [601px -> 1200px]*/
+
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 80px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 560px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 40px;
+        width: 120px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    /*Tablets [601px -> 1200px]*/
+    
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 500px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 500px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    /*Tablets [601px -> 1200px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 480px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 1050px){
+    /*Tablets [601px -> 1200px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 480px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+        display: none;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 450px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    /*Tablets [601px -> 1200px]*/
+
+    .first-section-container{
+        height: 93vh;
+        /*border: solid 1px green;*/
+        max-width: 75%;
+        width: 75%;
+        margin: auto;
+        margin-left: 30px;
+    }
+
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 420px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 400px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+	/*Big smartphones [426px -> 650px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 400px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+        display: none;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+
+    .main-arrow-down{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        margin: 0;
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 350px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+
+    .main-arrow-down{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        margin: 0;
+        padding-top: 150px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 320px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}
+
+@media screen and (max-height: 300px) {
+    /*---------- Main Title ----------*/
+
+    .main-title-child{
+        float: left;
+        margin-top: 60px;
+        /*border: solid 1px red;*/
+    }
+    
+    #main-title{
+        font-size: 40px;
+        color: #ffffff;
+        margin-bottom: 25px;
+    }
+
+    /*---------- Main Sub-Title ----------*/
+
+    #main-subtitle{
+        margin-bottom: 25px;
+        font-size: 22px;
+    }
+
+    /*---------- Main Paragraph ----------*/
+
+    #main-paragraph{
+        font-size: 16px;
+        max-width: 310px;
+        color: rgb(160, 160, 160);
+    }
+
+    /*---------- Main Button ----------*/
+    
+    #main-button{
+        height: 35px;
+        width: 110px;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        background-color: #6684ec;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+    }
+    
+
+    /*---------- Main Image ----------*/
+
+    .main-image-child{
+        margin-top: 80px;
+        margin-right: 50px;
+    }
+    
+    #main-image{
+        width: 200px;
+        height: auto;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 20px 0px black;
+    }
+
+    /*---------- Main Arrow Down ----------*/
+
+    #arrow-down{
+        width: 30px;
+        height: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        opacity: 60%;
+    }
+}

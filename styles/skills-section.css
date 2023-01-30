@@ -1,0 +1,409 @@
+.third-section-container {
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    height: 70vh;
+    /* border: solid 1px gray; */
+}
+
+/* ---------- Skills Title Section ---------- */
+
+.skills-title-parent{
+    padding-bottom: 0px;
+    /* border: solid 1px green; */
+    text-align: center;
+    border: 1px solid rgb(134, 134, 134);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0px solid transparent;
+    border-radius: 10px;
+    width: 20%;
+    margin-left: 40%;
+}
+
+#skills-h1{
+    font-size: 30px;
+}
+
+#skills-h1-span{
+    color: #6684ec;
+}
+
+#skills-h1-span-2{
+    color: rgb(255, 255, 255);
+}
+
+/* ---------- Skills Container 1 Section ---------- */
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+}
+
+.progress-bar-container-1{
+    /* border: solid 1px red; */
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.progress-bar-container-2{
+    /* border: solid 1px red; */
+    width: 50%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    height: 15px;
+    position: relative;
+    background: rgb(187, 187, 187);
+    border-radius: 15px;
+    margin-top: 60px;
+    box-shadow: 3px 3px 15px 0px rgb(43, 43, 43);
+}
+
+.progress-text {
+    position: absolute;
+    top: -30px;
+    line-height: 30px;
+    text-align: center;
+    width: 50%;
+    color: rgb(167, 167, 167);
+}
+
+.progress-text.left {
+    left: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.progress-text.right {
+    right: 0;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* ---------- Skills Progress Bars Section ---------- */
+
+.progress-bar-java {
+    width: 80%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-python {
+    width: 90%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-react {
+    width: 65%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-javascript {
+    width: 70%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-html-css {
+    width: 90%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-csharp {
+    width: 40%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-sql {
+    width: 50%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+.progress-bar-php {
+    width: 50%;
+    height: 100%;
+    background: #55bb58ec;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (max-width: 1300px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1100px){
+    /*Tablets [601px -> 1200px]*/
+    .third-section-container {
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        height: 70vh;
+        /* border: solid 1px gray; */
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .progress-bar-container-1{
+        /* border: solid 1px red; */
+        width: 70%;
+        margin: 50px;
+    }
+    
+    .progress-bar-container-2{
+        /* border: solid 1px red; */
+        width: 70%;
+        margin: 50px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        background: rgb(187, 187, 187);
+        border-radius: 15px;
+        margin-top: 60px;
+        box-shadow: 3px 3px 15px 0px rgb(43, 43, 43);
+    }
+    
+    .progress-text {
+        position: absolute;
+        top: -30px;
+        line-height: 30px;
+        text-align: center;
+        width: 50%;
+        color: rgb(167, 167, 167);
+    }
+    
+    .progress-text.left {
+        left: 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .progress-text.right {
+        right: 0;
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 900px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 720px) {
+    /* default iPad screens */
+    .skills-title-parent{
+        padding-bottom: 0px;
+        text-align: center;
+        border: 1px solid rgb(134, 134, 134);
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 0px solid transparent;
+        border-radius: 10px;
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .third-section-container {
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        height: 85vh;
+        /* border: solid 1px gray; */
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .progress-bar-container-1{
+        /* border: solid 1px red; */
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+    
+    .progress-bar-container-2{
+        /* border: solid 1px red; */
+        width: 100%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        background: rgb(187, 187, 187);
+        border-radius: 15px;
+        margin-top: 60px;
+        box-shadow: 3px 3px 15px 0px rgb(43, 43, 43);
+    }
+    
+    .progress-text {
+        position: absolute;
+        top: -30px;
+        line-height: 30px;
+        text-align: center;
+        width: 50%;
+        color: rgb(167, 167, 167);
+    }
+    
+    .progress-text.left {
+        left: 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .progress-text.right {
+        right: 0;
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .third-section-container {
+        margin: auto;
+        max-width: 100%;
+        width: 100%;
+        height: 85vh;
+        /* border: solid 1px gray; */
+    }
+
+    .skills-title-parent{
+        padding-bottom: 0px;
+        text-align: center;
+        border: 1px solid rgb(134, 134, 134);
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 0px solid transparent;
+        border-radius: 10px;
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    .skills-container{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .progress-bar-container-1{
+        /* border: solid 1px red; */
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+        position:absolute;
+        width: 90%;
+        top: 10px;
+    }
+    
+    .progress-bar-container-2{
+        /* border: solid 1px red; */
+        width: 90%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 0px;
+        position: absolute;
+        width: 90%;
+        top: 310px;
+    }
+    
+    .container {
+        width: 100%;
+        height: 15px;
+        position: relative;
+        background: rgb(187, 187, 187);
+        border-radius: 15px;
+        margin-top: 60px;
+        box-shadow: 3px 3px 15px 0px rgb(43, 43, 43);
+    }
+    
+    .progress-text {
+        position: absolute;
+        top: -30px;
+        line-height: 30px;
+        text-align: center;
+        width: 50%;
+        color: rgb(167, 167, 167);
+    }
+    
+    .progress-text.left {
+        left: 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+    
+    .progress-text.right {
+        right: 0;
+        text-align: right;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+}
+
+@media screen and (max-height: 300px) {
+
+}

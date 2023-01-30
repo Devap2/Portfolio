@@ -1,0 +1,368 @@
+.fourth-section-container{
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+}
+
+/* ---------- Skills Title Section ---------- */
+
+.projects-title-parent{
+    padding-bottom: 0px;
+    /* border: solid 1px green; */
+    text-align: center;
+    border: 1px solid rgb(73, 70, 70);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0px solid transparent;
+    width: 20%;
+    margin-left: 40%;
+}
+
+#projects-h1{
+    font-size: 30px;
+}
+
+#projects-h1-span{
+    color: #6684ec;
+}
+
+#projects-h1-span-2{
+    color: rgb(255, 255, 255);
+}
+
+.projects-boxes-child-1{
+    /* border: solid 1px red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-boxes-child-2{
+    /* border: solid 1px red; */
+    margin-top: 0;
+    padding-top: 0;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------- Project 1 Box ----------*/
+
+.project-1 {
+    width: 300px;
+    border: 1px solid rgb(70, 66, 66);
+    border-radius: 2px;
+    height: 400px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px 20px 50px 20px;
+    float: left;
+    background-color: #0c0e1ad0;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.39);
+}
+
+.project-1:hover{
+    background-color: #12162bd0;
+    transition-duration: 1.5s;
+}
+
+.project-1 h2 {
+    margin-top: 10px;
+    border-top: 100px;
+    background:  transparent;
+}
+
+.project-1-title{
+    /* border: solid 1px red; */
+    float: left;
+    background:  transparent;
+}
+
+.project-1-share{
+    /* border: solid 1px greenyellow; */
+    float: right;
+    width: 50px;
+    background:  transparent;
+}
+
+.project-1-share h4{
+    margin-top: 0;
+    margin-top: 10px;
+    background:  transparent;
+}
+
+.project-1-info{
+    float: right;
+    /* border: solid 1px greenyellow; */
+    width: 50px;
+    background:  transparent;
+}
+
+.project-1-info h4{
+    margin-top: 0;
+    margin-top: 10px;
+    background:  transparent;
+}
+
+.project-1-text{
+    border-top: 1px solid rgb(70, 66, 66);
+    /* border: solid 1px green; */
+    height: 260px;
+    clear: both;
+    background:  transparent;
+}
+
+.project-1-languages{
+    /* border: solid 1px lightcoral; */
+    height: 40px;
+    background:  transparent;
+}
+
+.project-1 p{
+    background:  transparent;
+}
+
+.project-1-languages p{
+    word-spacing: 10px;
+    color: rgb(124, 124, 124);
+    background:  transparent;
+}
+
+/*---------- Project 2 Box ----------*/
+
+.project-2 {
+    width: 300px;
+    border: 1px solid rgb(70, 66, 66);
+    border-radius: 2px;
+    height: 400px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px 20px 50px 20px;
+    float: left;
+    background-color: #0c0e1ad0;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.39);
+}
+
+.project-2:hover{
+    background-color: #12162bd0;
+    transition-duration: 1.5s;
+}
+
+.project-2 h2 {
+    margin-top: 10px;
+    border-top: 100px;
+    background:  transparent;
+}
+
+.project-2-title{
+    /* border: solid 1px red; */
+    float: left;
+    background:  transparent;
+}
+
+.project-2-share{
+    /* border: solid 1px greenyellow; */
+    float: right;
+    width: 50px;
+    background:  transparent;
+}
+
+.project-2-share h4{
+    margin-top: 0;
+    margin-top: 10px;
+    background:  transparent;
+}
+
+.project-2-info{
+    float: right;
+    /* border: solid 1px greenyellow; */
+    width: 50px;
+    background:  transparent;
+}
+
+.project-2-info h4{
+    margin-top: 0;
+    margin-top: 10px;
+    background:  transparent;
+}
+
+.project-2-text{
+    border-top: 1px solid rgb(70, 66, 66);
+    /* border: solid 1px green; */
+    height: 260px;
+    clear: both;
+    background:  transparent;
+}
+
+.project-2-languages{
+    /* border: solid 1px lightcoral; */
+    height: 40px;
+    background:  transparent;
+}
+
+.project-2 p{
+    background:  transparent;
+}
+
+.project-2-languages p{
+    word-spacing: 10px;
+    color: rgb(124, 124, 124);
+    background:  transparent;
+}
+
+/*---------- Project 3 Box ----------*/
+
+.project-3 {
+    width: 300px;
+    border: 1px solid rgb(70, 66, 66);
+    border-radius: 2px;
+    height: 400px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px 20px 50px 20px;
+    float: left;
+    background-color: #0c0e1ad0;
+    box-shadow: 8px 8px 10px 1px rgba(0, 0, 0, 0.39);
+}
+
+.project-3:hover{
+    background-color: #12162bd0;
+    transition-duration: 1.5s;
+}
+
+.project-3 h2 {
+    margin-top: 10px;
+    border-top: 100px;
+    background:  transparent;
+}
+
+.project-3-title{
+    /* border: solid 1px red; */
+    float: left;
+    background:  transparent;
+}
+
+.project-3-share{
+    /* border: solid 1px greenyellow; */
+    float: right;
+    width: 50px;
+    background:  transparent;
+}
+
+.project-3-share h4{
+    margin-top: 0;
+    margin-top: 10px;
+    background:  transparent;
+}
+
+.project-3-info{
+    float: right;
+    /* border: solid 1px greenyellow; */
+    width: 50px;
+    background:  transparent;
+}
+
+.project-3-info h4{
+    margin-top: 0;
+    background:  transparent;
+    margin-top: 10px;
+}
+
+.project-3 p{
+    background:  transparent;
+}
+
+.project-3-text{
+    border-top: 1px solid rgb(70, 66, 66);
+    /* border: solid 1px green; */
+    height: 260px;
+    background:  transparent;
+    clear: both;
+}
+
+.project-3-languages{
+    /* border: solid 1px lightcoral; */
+    height: 40px;
+    background:  transparent;
+}
+
+.project-3-languages p{
+    word-spacing: 10px;
+    color: rgb(124, 124, 124);
+    background:  transparent;
+}
+
+#see-more-link{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    /* border: solid 1px red; */
+    text-align: center;
+    display: block;
+}
+
+#see-more-link:hover{
+    color:#6684ec;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    #see-more-link{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1375px){
+    .fourth-section-container{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1100px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 900px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (device-width: 768px) {
+    /* default iPad screens */
+
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+
+}
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+}
+
+@media screen and (max-height: 300px) {
+
+}

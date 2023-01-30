@@ -1,0 +1,1368 @@
+.second-section-container {
+    /* border: solid 1px red; */
+    margin: auto;
+    max-width: 75%;
+    width: 75%;
+    height: 50vh;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+} 
+
+/*---------- About Me General Title Section ----------*/
+
+.about-me-title-parent{
+    /* border: solid 1px red; */
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+}
+
+#about-me-h1{
+    font-size: 30px;
+}
+
+#about-me-h1-span{
+    color: #6684ec;
+}
+
+#about-me-h1-span-2{
+    color: rgb(255, 255, 255);
+}
+
+/*---------- About Me General Information Section ----------*/
+
+.about-me-general-information-container{
+    /* border: solid 1px red; */
+    height: 320px;
+    float:left; 
+    clear: left;
+    width: 50%;
+    margin-left: 50px;
+    position: relative;
+    z-index : 1;
+}
+
+.about-me-general-information-container:before{
+    content : "";
+    position: absolute;
+    height  : 1px;
+    width   : 50%;  /* or 100px */
+    margin-top: 320px;
+    border-bottom: 1px solid #6684ec;
+}
+
+.about-me-general-information-container p{
+    font-size: 18px;
+    color: rgb(167, 167, 167);
+}
+
+/*---------- About Me Image Section ----------*/
+
+.about-me-image-container{
+    /* border: solid 1px red; */
+    float: right;
+    margin-top: 100px;
+}
+
+#about-me-image{
+    width: 320px;
+    height: auto;
+    margin-right: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 0px rgb(43, 43, 43);
+}
+
+/*---------- About Me Social Media Section ----------*/
+
+.social-media-links-container{
+    width: 100%;
+    /* border: solid 1px green; */
+    float:left; 
+    clear: left;
+}
+
+#about-me-social-media-youtube{
+    width: 30px;
+    height: auto;
+    float: left;
+    border-radius: 0%;
+    margin-left: 50px;
+    margin-top: 25px;
+    opacity: 40%;
+}
+
+#about-me-social-media-instagram{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    border-radius: 0%;
+    margin-top: 25px;
+    opacity: 40%;
+}
+
+#about-me-social-media-twitter{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    border-radius: 0%;
+    margin-top: 25px;
+    opacity: 40%;
+}
+
+#about-me-social-media-discord{
+    width: 30px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    border-radius: 0%;
+    margin-top: 25px;
+    opacity: 40%;
+}
+
+#about-me-social-media-youtube:hover{
+    cursor: pointer;
+    opacity: 80%;
+    transition-duration: 1s;
+}
+
+#about-me-social-media-instagram:hover{
+    cursor: pointer;
+    opacity: 100%;
+    transition-duration: 1s;
+}
+
+#about-me-social-media-twitter:hover{
+    cursor: pointer;
+    opacity: 100%;
+    transition-duration: 1s;
+}
+
+#about-me-social-media-discord:hover{
+    cursor: pointer;
+    opacity: 100%;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 2000px) {
+    /* for sumo sized (mac) screens */
+}
+
+@media only screen and (max-width: 1900px) {
+    /* styles for browsers larger than 1440px; */
+    #about-me-image{
+        width: 300px;
+        height: auto;
+        margin-right: 200px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 0px rgb(43, 43, 43);
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    /* styles for browsers larger than 1440px; */
+    #about-me-image{
+        width: 280px;
+        height: auto;
+        margin-right: 200px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 0px rgb(43, 43, 43);
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 320px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 320px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    /* styles for browsers larger than 1440px; */
+    #about-me-image{
+        width: 230px;
+        height: auto;
+        margin-right: 200px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 0px rgb(43, 43, 43);
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 350px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 340px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+}
+
+@media only screen and (max-width: 1660px) {
+    /* styles for browsers larger than 1440px; */
+    #about-me-image{
+        width: 230px;
+        height: auto;
+        margin-right: 200px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 20px 0px rgb(43, 43, 43);
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 350px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 360px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 50px;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (max-width: 1500px) {
+    /* styles for browsers larger than 1440px; */
+}
+
+@media only screen and (max-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 400px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 380px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 50px;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 1380px){
+    /*Tablets [601px -> 1200px]*/
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 400px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 390px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 50px;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    /*Tablets [601px -> 1200px]*/
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 400px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 50px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 410px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 50px;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 30px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+
+@media only screen and (max-width: 1250px){
+    /*Tablets [601px -> 1200px]*/
+    .about-me-title-parent{
+        /* border: solid 1px red; */
+        width: 50%;
+        float: left;
+        margin-left: 0px;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 320px;
+        float:left; 
+        clear: left;
+        width: 50%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 420px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 120px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 120px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 120px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 120px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+
+}
+
+@media only screen and (max-width: 1165px){
+    /*Tablets [601px -> 1200px]*/
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 400px;
+        float:left; 
+        clear: left;
+        width: 60%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 430px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+
+@media only screen and (max-width: 1080px){
+    /*Tablets [601px -> 1200px]*/
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 440px;
+        float:left; 
+        clear: left;
+        width: 70%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 460px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+
+@media only screen and (max-width: 900px){
+    /*Tablets [601px -> 1200px]*/
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* default iPad screens */
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 440px;
+        float:left; 
+        clear: left;
+        width: 90%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 460px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 60vh;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+    } 
+
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 440px;
+        float:left; 
+        clear: left;
+        width: 90%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 460px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+}
+
+@media only screen and (max-width: 560px){
+    #about-me-image{
+        display: none;
+    }
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 460px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 50px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 60vh;
+        padding-bottom: 150px;
+    } 
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 475px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+}
+
+@media only screen and (max-width: 495px){
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 500px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 65px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 65px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 65px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 65px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 50vh;
+        padding-bottom: 100px;
+    } 
+
+	/*Small smartphones [325px -> 425px]*/
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 520px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 80px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 80px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 80px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 80px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 455px){
+    /*Small smartphones [325px -> 425px]*/
+
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 50vh;
+        margin-bottom: 200px;
+        padding-bottom: 150px;
+    } 
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 560px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 115px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 115px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 115px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 115px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 50vh;
+        margin-bottom: 250px;
+        padding-bottom: 150px;
+    } 
+
+	/*Small smartphones [325px -> 425px]*/
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 580px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 140px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 140px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 140px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 140px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 380px){
+
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 50vh;
+        margin-bottom: 250px;
+        padding-bottom: 150px;
+    } 
+
+    .about-me-general-information-container{
+        /* border: solid 1px red; */
+        height: 460px;
+        float:left; 
+        clear: left;
+        width: 100%;
+        margin-left: 0px;
+        position: relative;
+        z-index : 1;
+    }
+    
+    .about-me-general-information-container:before{
+        content : "";
+        position: absolute;
+        height  : 1px;
+        width   : 50%;  /* or 100px */
+        margin-top: 600px;
+        border-bottom: 1px solid #6684ec;
+    }
+    
+    .about-me-general-information-container p{
+        font-size: 18px;
+        color: rgb(167, 167, 167);
+    }
+
+    #about-me-social-media-youtube{
+        width: 30px;
+        height: auto;
+        float: left;
+        border-radius: 0%;
+        margin-left: 0px;
+        margin-top: 155px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-instagram{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 155px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-twitter{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 155px;
+        opacity: 40%;
+    }
+    
+    #about-me-social-media-discord{
+        width: 30px;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+        border-radius: 0%;
+        margin-top: 155px;
+        opacity: 40%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    
+	/*Small smartphones [325px -> 425px]*/
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 70vh;
+        margin-bottom: 300px;
+        padding-bottom: 150px;
+    } 
+}
+
+@media screen and (max-width: 300px) {
+    /* Extra Small */
+    .second-section-container {
+        /* border: solid 1px red; */
+        margin: auto;
+        max-width: 75%;
+        width: 75%;
+        height: 80vh;
+        margin-bottom: 300px;
+        padding-bottom: 150px;
+    } 
+}
